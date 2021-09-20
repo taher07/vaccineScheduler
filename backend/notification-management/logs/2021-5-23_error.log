@@ -1,0 +1,27 @@
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-23T10:26:32.575Z'
+}
+{
+  status: 400,
+  code: 21614,
+  moreInfo: 'https://www.twilio.com/docs/errors/21614',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-23T10:47:36.938Z'
+}
+{
+  status: 400,
+  code: 21614,
+  moreInfo: 'https://www.twilio.com/docs/errors/21614',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-23T10:53:32.203Z'
+}

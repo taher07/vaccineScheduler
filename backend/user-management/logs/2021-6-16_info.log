@@ -1,0 +1,2968 @@
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:05.067Z'
+}
+{
+  errors: {
+    clusterID: ValidatorError: Path `clusterID` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at ObjectId.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `clusterID` is required.',
+        type: 'required',
+        path: 'clusterID',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'clusterID',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    password: ValidatorError: Path `password` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `password` is required.',
+        type: 'required',
+        path: 'password',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    email: ValidatorError: Path `email` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `email` is required.',
+        type: 'required',
+        path: 'email',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'email',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Staff validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:05.092Z'
+}
+{
+  errors: {
+    clusterID: ValidatorError: Path `clusterID` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at ObjectId.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `clusterID` is required.',
+        type: 'required',
+        path: 'clusterID',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'clusterID',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    password: ValidatorError: Path `password` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `password` is required.',
+        type: 'required',
+        path: 'password',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    email: ValidatorError: Path `email` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `email` is required.',
+        type: 'required',
+        path: 'email',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'email',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Staff validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:05.095Z'
+}
+{
+  errors: {
+    clusterID: ValidatorError: Path `clusterID` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at ObjectId.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `clusterID` is required.',
+        type: 'required',
+        path: 'clusterID',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'clusterID',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    password: ValidatorError: Path `password` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `password` is required.',
+        type: 'required',
+        path: 'password',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    email: ValidatorError: Path `email` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `email` is required.',
+        type: 'required',
+        path: 'email',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'email',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Staff validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:05.098Z'
+}
+{
+  errors: {
+    clusterID: ValidatorError: Path `clusterID` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at ObjectId.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `clusterID` is required.',
+        type: 'required',
+        path: 'clusterID',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'clusterID',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    password: ValidatorError: Path `password` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `password` is required.',
+        type: 'required',
+        path: 'password',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    email: ValidatorError: Path `email` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `email` is required.',
+        type: 'required',
+        path: 'email',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'email',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Staff validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:05.102Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:05.275Z'
+}
+{
+  errors: {
+    uid: ValidatorError: Path `uid` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `uid` is required.',
+        type: 'required',
+        path: 'uid',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'uid',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    pinCode: ValidatorError: Path `pinCode` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `pinCode` is required.',
+        type: 'required',
+        path: 'pinCode',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'pinCode',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    age: ValidatorError: Path `age` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `age` is required.',
+        type: 'required',
+        path: 'age',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:05.314Z'
+}
+{
+  errors: {
+    uid: ValidatorError: Path `uid` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `uid` is required.',
+        type: 'required',
+        path: 'uid',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'uid',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    pinCode: ValidatorError: Path `pinCode` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `pinCode` is required.',
+        type: 'required',
+        path: 'pinCode',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'pinCode',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    age: ValidatorError: Path `age` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `age` is required.',
+        type: 'required',
+        path: 'age',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:05.317Z'
+}
+{
+  errors: {
+    uid: ValidatorError: Path `uid` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `uid` is required.',
+        type: 'required',
+        path: 'uid',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'uid',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    pinCode: ValidatorError: Path `pinCode` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `pinCode` is required.',
+        type: 'required',
+        path: 'pinCode',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'pinCode',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    age: ValidatorError: Path `age` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `age` is required.',
+        type: 'required',
+        path: 'age',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:05.319Z'
+}
+{
+  errors: {
+    uid: ValidatorError: Path `uid` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `uid` is required.',
+        type: 'required',
+        path: 'uid',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'uid',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    pinCode: ValidatorError: Path `pinCode` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `pinCode` is required.',
+        type: 'required',
+        path: 'pinCode',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'pinCode',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    age: ValidatorError: Path `age` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `age` is required.',
+        type: 'required',
+        path: 'age',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:05.321Z'
+}
+{
+  errors: {
+    uid: ValidatorError: Path `uid` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `uid` is required.',
+        type: 'required',
+        path: 'uid',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'uid',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    pinCode: ValidatorError: Path `pinCode` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `pinCode` is required.',
+        type: 'required',
+        path: 'pinCode',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'pinCode',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    age: ValidatorError: Path `age` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `age` is required.',
+        type: 'required',
+        path: 'age',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:05.324Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: `"{ mobileNumber: '7724527094', uid: '8836548054789' }"`,
+  kind: 'string',
+  value: { mobileNumber: '7724527094', uid: '8836548054789' },
+  path: 'uid',
+  reason: null,
+  valueType: 'Object',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:05.337Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:05.617Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:06.199Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:07.187Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:08.866Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:11.716Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.118Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.126Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.140Z'
+}
+{
+  message: 'Operation `vaccinetypes.find()` buffering timed out after 10000ms',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.149Z'
+}
+{
+  message: 'Operation `vaccinetypes.find()` buffering timed out after 10000ms',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.190Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.194Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.201Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.205Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.213Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.214Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.224Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.225Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.285Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.285Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.297Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.298Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.310Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.338Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.340Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:15.371Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:16.548Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:24.763Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:21:38.727Z'
+}
+{
+  message: 'Server up at port 3200',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:29:37.403Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:29:37.421Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:29:37.631Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:29:37.972Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:29:38.554Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:29:39.539Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:29:41.218Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:29:44.063Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:29:48.897Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:29:57.113Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:27017',
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        error: Error: connect ECONNREFUSED 127.0.0.1:27017
+            at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16) {
+          name: 'MongoNetworkError'
+        },
+        roundTripTime: -1,
+        lastUpdateTime: 6906171177,
+        lastWriteDate: null,
+        opTime: null,
+        type: 'Unknown',
+        topologyVersion: undefined,
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: []
+      }
+    },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  },
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:30:06.920Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:30:11.076Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:30:34.814Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:01.076Z'
+}
+{
+  errors: {
+    clusterID: ValidatorError: Path `clusterID` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at ObjectId.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `clusterID` is required.',
+        type: 'required',
+        path: 'clusterID',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'clusterID',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    password: ValidatorError: Path `password` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `password` is required.',
+        type: 'required',
+        path: 'password',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    email: ValidatorError: Path `email` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `email` is required.',
+        type: 'required',
+        path: 'email',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'email',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Staff validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:01.102Z'
+}
+{
+  errors: {
+    clusterID: ValidatorError: Path `clusterID` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at ObjectId.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `clusterID` is required.',
+        type: 'required',
+        path: 'clusterID',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'clusterID',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    password: ValidatorError: Path `password` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `password` is required.',
+        type: 'required',
+        path: 'password',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    email: ValidatorError: Path `email` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `email` is required.',
+        type: 'required',
+        path: 'email',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'email',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Staff validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:01.106Z'
+}
+{
+  errors: {
+    clusterID: ValidatorError: Path `clusterID` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at ObjectId.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `clusterID` is required.',
+        type: 'required',
+        path: 'clusterID',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'clusterID',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    password: ValidatorError: Path `password` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `password` is required.',
+        type: 'required',
+        path: 'password',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    email: ValidatorError: Path `email` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `email` is required.',
+        type: 'required',
+        path: 'email',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'email',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Staff validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:01.109Z'
+}
+{
+  errors: {
+    clusterID: ValidatorError: Path `clusterID` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at ObjectId.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `clusterID` is required.',
+        type: 'required',
+        path: 'clusterID',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'clusterID',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    password: ValidatorError: Path `password` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `password` is required.',
+        type: 'required',
+        path: 'password',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    email: ValidatorError: Path `email` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `email` is required.',
+        type: 'required',
+        path: 'email',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'email',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Staff validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:01.114Z'
+}
+{
+  errors: {
+    uid: ValidatorError: Path `uid` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `uid` is required.',
+        type: 'required',
+        path: 'uid',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'uid',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    pinCode: ValidatorError: Path `pinCode` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `pinCode` is required.',
+        type: 'required',
+        path: 'pinCode',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'pinCode',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    age: ValidatorError: Path `age` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `age` is required.',
+        type: 'required',
+        path: 'age',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:01.251Z'
+}
+{
+  errors: {
+    uid: ValidatorError: Path `uid` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `uid` is required.',
+        type: 'required',
+        path: 'uid',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'uid',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    pinCode: ValidatorError: Path `pinCode` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `pinCode` is required.',
+        type: 'required',
+        path: 'pinCode',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'pinCode',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    age: ValidatorError: Path `age` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `age` is required.',
+        type: 'required',
+        path: 'age',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:01.252Z'
+}
+{
+  errors: {
+    uid: ValidatorError: Path `uid` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `uid` is required.',
+        type: 'required',
+        path: 'uid',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'uid',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    pinCode: ValidatorError: Path `pinCode` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `pinCode` is required.',
+        type: 'required',
+        path: 'pinCode',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'pinCode',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    age: ValidatorError: Path `age` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `age` is required.',
+        type: 'required',
+        path: 'age',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:01.254Z'
+}
+{
+  errors: {
+    uid: ValidatorError: Path `uid` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `uid` is required.',
+        type: 'required',
+        path: 'uid',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'uid',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    pinCode: ValidatorError: Path `pinCode` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `pinCode` is required.',
+        type: 'required',
+        path: 'pinCode',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'pinCode',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    age: ValidatorError: Path `age` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `age` is required.',
+        type: 'required',
+        path: 'age',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:01.255Z'
+}
+{
+  errors: {
+    uid: ValidatorError: Path `uid` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `uid` is required.',
+        type: 'required',
+        path: 'uid',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'uid',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    pinCode: ValidatorError: Path `pinCode` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `pinCode` is required.',
+        type: 'required',
+        path: 'pinCode',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'pinCode',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    mobileNumber: ValidatorError: Path `mobileNumber` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `mobileNumber` is required.',
+        type: 'required',
+        path: 'mobileNumber',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'mobileNumber',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    age: ValidatorError: Path `age` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaNumber.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `age` is required.',
+        type: 'required',
+        path: 'age',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'age',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    lastName: ValidatorError: Path `lastName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `lastName` is required.',
+        type: 'required',
+        path: 'lastName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'lastName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    firstName: ValidatorError: Path `firstName` is required.
+        at validate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1270:13)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1253:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/schematype.js:1198:14)
+        at /Users/taherlunavadi/Downloads/Vaccine Scheduler/backend v2/user-management/node_modules/mongoose/lib/document.js:2535:18
+        at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `firstName` is required.',
+        type: 'required',
+        path: 'firstName',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'firstName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:01.257Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: `"{ mobileNumber: '7724527094', uid: '8836548054789' }"`,
+  kind: 'string',
+  value: { mobileNumber: '7724527094', uid: '8836548054789' },
+  path: 'uid',
+  reason: null,
+  valueType: 'Object',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:01.262Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:01.287Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:01.636Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:02.216Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:03.203Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:04.878Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:07.726Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.128Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.131Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.152Z'
+}
+{
+  message: 'Operation `vaccinetypes.find()` buffering timed out after 10000ms',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.158Z'
+}
+{
+  message: 'Operation `vaccinetypes.find()` buffering timed out after 10000ms',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.186Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.190Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.199Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.201Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.208Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.211Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.218Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.220Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.231Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.232Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.237Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.238Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.248Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.264Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.270Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:11.282Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:12.563Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:15.161Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:20.778Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:34.741Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:31:58.478Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:32:23.747Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:32:38.828Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:33:47.415Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:34:20.339Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:35:44.010Z'
+}
+{
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 60484,
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-07-16T13:37:38.548Z'
+}

@@ -1,0 +1,10 @@
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-06-20T15:17:06.450Z'
+}
+{
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-06-20T15:17:06.459Z'
+}

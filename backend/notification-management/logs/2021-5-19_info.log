@@ -1,0 +1,308 @@
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T18:30:13.926Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T18:30:13.960Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T18:30:34.849Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T18:30:34.887Z'
+}
+{
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T18:30:45.407Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T18:46:14.434Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T18:46:14.493Z'
+}
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T18:46:25.725Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:45:52.471Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:45:52.550Z'
+}
+{
+  message: '[SM01eec7f7b0cd479fa8ebf7c5de2d4b85] - "[object Object]" sent to +undefined',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:45:58.463Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:47:48.412Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:47:48.443Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:48:20.023Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:48:20.081Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:48:33.761Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:48:33.831Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:49:11.430Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:49:11.467Z'
+}
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:49:21.367Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:51:01.615Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:51:01.696Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:51:11.898Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:51:11.955Z'
+}
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:51:15.859Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T20:00:38.461Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T20:00:38.525Z'
+}
+{
+  message: '[SM53ac56023bda4f0183ec10e8c3bbf0a9] - "[object Object]" sent to +919898260432',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-18T20:00:42.779Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T06:30:55.008Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T06:30:55.089Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T06:31:21.568Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T06:31:21.604Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T06:31:57.210Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T06:31:57.297Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T12:37:09.103Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T12:37:09.182Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T12:39:33.539Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T12:39:33.622Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T12:41:03.830Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T12:41:03.893Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T12:44:45.064Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T12:44:45.135Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T13:47:35.491Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T13:47:35.556Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T14:30:48.420Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T14:30:48.466Z'
+}
+{
+  message: 'In here',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T14:31:48.504Z'
+}
+{
+  message: 'Server up at port 3300',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T14:33:55.873Z'
+}
+{
+  message: 'connected to MongoDB',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T14:33:55.913Z'
+}
+{
+  message: 'In here',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-19T14:34:55.931Z'
+}

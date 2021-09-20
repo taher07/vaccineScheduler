@@ -1,0 +1,32 @@
+{
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T18:30:45.407Z'
+}
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T18:46:25.725Z'
+}
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:49:21.367Z'
+}
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T19:51:15.859Z'
+}

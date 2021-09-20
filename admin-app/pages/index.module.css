@@ -1,0 +1,61 @@
+.form {
+  border: 1px solid #000;
+  padding: 1em;
+  min-width: 20%;
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  border-radius: 1em;
+  padding: 0.5em;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.btn:hover::after {
+  content: "→";
+  padding-left: 5px;
+}
+
+.blue {
+  background-color: #1e3770;
+  color: #fff;
+}
+
+.label {
+  font-weight: normal;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 0.5em;
+}
+
+.input {
+  outline: none;
+  border-radius: 1em;
+  background-color: transparent;
+  border: 1px solid #000;
+  text-indent: 5px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.input:hover,
+.input:active {
+  outline: none;
+}
+
+.formWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5em 0;
+}
+
+@media screen and (max-width: 700px) {
+  .form {
+    width: 80%;
+  }
+}

@@ -1,0 +1,51 @@
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-23T10:26:32.575Z'
+}
+{
+  message: '[SM6fd9b1da954845948b530105cfe92e86] - "[object Object]" sent to +919898260432',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-23T10:26:32.640Z'
+}
+{
+  status: 400,
+  code: 21614,
+  moreInfo: 'https://www.twilio.com/docs/errors/21614',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-23T10:47:36.938Z'
+}
+{
+  message: '[SM6bd47a2c0535443f9d4938fe9995f4db] - "[object Object]" sent to +919898260432',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-23T10:47:36.951Z'
+}
+{
+  status: 400,
+  code: 21614,
+  moreInfo: 'https://www.twilio.com/docs/errors/21614',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-23T10:53:32.203Z'
+}
+{
+  message: '[SM13754ea2e2794693bdb8618d0e32921e] - "[object Object]" sent to +919898260432',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-23T10:53:32.215Z'
+}
+{
+  message: '[SM4ebbdba4b89b49a4a4faf409f7226286] - "[object Object]" sent to +919824527094',
+  level: 'info',
+  service: 'notification-service',
+  timestamp: '2021-06-23T10:55:58.316Z'
+}

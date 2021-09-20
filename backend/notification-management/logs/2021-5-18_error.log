@@ -1,0 +1,250 @@
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:27017',
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        error: Error: connect ECONNREFUSED 127.0.0.1:27017
+            at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16) {
+          name: 'MongoNetworkError'
+        },
+        roundTripTime: -1,
+        lastUpdateTime: 4492769466,
+        lastWriteDate: null,
+        opTime: null,
+        type: 'Unknown',
+        topologyVersion: undefined,
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: []
+      }
+    },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  },
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T15:04:00.594Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:27017',
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        error: Error: connect ECONNREFUSED 127.0.0.1:27017
+            at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16) {
+          name: 'MongoNetworkError'
+        },
+        roundTripTime: -1,
+        lastUpdateTime: 4493068252,
+        lastWriteDate: null,
+        opTime: null,
+        type: 'Unknown',
+        topologyVersion: undefined,
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: []
+      }
+    },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  },
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T15:08:59.394Z'
+}
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T15:14:34.127Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:27017',
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        error: Error: connect ECONNREFUSED 127.0.0.1:27017
+            at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16) {
+          name: 'MongoNetworkError'
+        },
+        roundTripTime: -1,
+        lastUpdateTime: 4493420697,
+        lastWriteDate: null,
+        opTime: null,
+        type: 'Unknown',
+        topologyVersion: undefined,
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: []
+      }
+    },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  },
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T15:14:51.947Z'
+}
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T15:18:27.952Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:27017',
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        error: Error: connect ECONNREFUSED 127.0.0.1:27017
+            at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16) {
+          name: 'MongoNetworkError'
+        },
+        roundTripTime: -1,
+        lastUpdateTime: 4494019254,
+        lastWriteDate: null,
+        opTime: null,
+        type: 'Unknown',
+        topologyVersion: undefined,
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: []
+      }
+    },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  },
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T15:24:50.453Z'
+}
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T15:29:26.419Z'
+}
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T15:31:04.545Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:27017',
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        error: Error: connect ECONNREFUSED 127.0.0.1:27017
+            at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16) {
+          name: 'MongoNetworkError'
+        },
+        roundTripTime: -1,
+        lastUpdateTime: 4494417628,
+        lastWriteDate: null,
+        opTime: null,
+        type: 'Unknown',
+        topologyVersion: undefined,
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: []
+      }
+    },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  },
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T15:31:29.191Z'
+}
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T15:49:27.320Z'
+}
+{
+  level: 'error',
+  service: 'notification-service',
+  timestamp: '2021-06-18T18:25:41.786Z'
+}
